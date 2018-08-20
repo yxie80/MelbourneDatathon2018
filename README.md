@@ -2,6 +2,7 @@
 
 Some Configurations for Melbourne Datathon 2018
 
-Ungzip
-Unzipping Data: (Using Shell Command)
+
+## Command line - Unzipping ".gz" files
+
 find . -type f -name "*.gz" -exec gunzip {} \;
